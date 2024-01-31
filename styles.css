@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: grey;
+}
+
+.personal-info {
+    background-color: lightblue;
+    margin: 20px;
+    border: 20px solid white;
+    width: 80%; /* Stretch to full width */
+    position: relative; /* Change to relative */
+    top: 80px; /* Place 30px from the top */
+    left: 0; /* Align to the left */
+    transform: translate(0, -50%);
+}
+
+.text-box{
+    margin: 20px;
+}
+
+.job-application{
+    font-size: 16px;
+    max-width: 50em;
+    min-height: 20em;
+    font-family: sans-serif;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.6);
+    margin: 2em auto;
+    background: linear-gradient(to right, black 30%, white 30%);
+    text-align: left;
+    padding: 4em 8em;
+    line-height: 1.5;
+}
+
+.content{
+    margin-left: 30%;
+}
+
+
+
+
+
+
+
