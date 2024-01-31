@@ -39,5 +39,58 @@ body{
 
 
 
+/* Media query for tablets */
+@media screen and (max-width: 768px) {
+    .job-application {
+      padding: 2em; /* Reduce padding for smaller screens */
+    }
+  
+    .personal-info {
+      top: 50px; /* Adjust the top position */
+      transform: translate(0, -30%); /* Adjust the transform value */
+      width: 90%; /* Increase width to use more space on smaller screens */
+    }
+  
+    .content {
+      margin-left: 15%; /* Reduce margin for smaller screens */
+    }
+  }
+  
+  /* Media query for mobile phones */
+  @media screen and (max-width: 480px) {
+    .personal-info {
+      position: static; /* Stack the box instead of positioning it absolutely */
+      width: auto; /* Let it fill the width of the screen */
+      margin-top: 12%; /* Adjust margin to fit small screens */
+      border: 10px solid white; /* Optional: remove border on small screens */
+    }
+  
+    .job-application {
+      box-shadow: none; /* Remove shadow on small screens for a flatter design */
+      padding: 2em 1em; /* Adjust padding */
+      background: linear(to right, black 20%, white 20%); /* Change background for better readability */
+    }
+    
+    .content {
+      margin-left: 30%; /* Center the content */
+      margin-right: auto;
+    }
+  
+    .text-box {
+      margin: 0; /* Remove margins */
+    }
+  }
+  
+  
+  
+
+
+
+
+
+
+
+
+
 
 
